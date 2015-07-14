@@ -12,7 +12,7 @@ enabled=1<br>
 
 sudo yum install -y mongodb-org
 
-yum install -y policycoreutils
+yum install -y policycoreutils-python
 
 semanage port -a -t mongod_port_t -p tcp 27017
 
